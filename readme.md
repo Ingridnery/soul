@@ -15,7 +15,7 @@ Este projeto é uma API REST simulada para gerenciar almas usando JSON Server e 
 ## Utilização
 
 1. Navegue até o diretório server do projeto: cd soul/server
-2. Inicie o servidor JSON Server: json-server --watch db.json
+2. Inicie o servidor JSON Server: npx json-server --watch db.json
     O servidor será iniciado e estará disponível em http://localhost:3000/index.html . A API REST simulada será baseada no conteúdo do arquivo `db.json`.
 3. Faça requisições para a API utilizando ferramentas como Postman ou um navegador.
 
