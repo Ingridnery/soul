@@ -1,70 +1,28 @@
 {
   "souls": [
     {
-      "owner": "Bob",
-      "name": "Soul 1 Updated",
+      "name": "James Hetfield",
+      "owner": "Papa Emeritus III",
       "location": "purgatory",
-      "id": 1   
+      "id": 1
     },
     {
-      "id": 2,
-      "owner": "Jane Smith",
-      "name": "Soul 2",
-      "location": "hell"
+      "name": "Seiya",
+      "owner": "Saori",
+      "location": "sky",
+      "id": 2
     },
     {
-      "id": 3,
-      "owner": "Michael Johnson",
-      "name": "Soul 3",
-      "location": "purgatory"
+      "name": "Leon S. Kennedy",
+      "owner": "Ada asda",
+      "location": "hell",
+      "id": 3
     },
     {
-      "id": 4,
-      "owner": "Sarah Thompson",
-      "name": "Soul 4",
-      "location": "sky"
-    },
-    {
-      "id": 5,
-      "owner": "Robert Davis",
-      "name": "Soul 5",
-      "location": "hell"
-    },
-    {
-      "id": 6,
-      "owner": "Emily Wilson",
-      "name": "Soul 6",
-      "location": "purgatory"
-    },
-    {
-      "id": 7,
-      "owner": "Daniel Lee",
-      "name": "Soul 7",
-      "location": "sky"
-    },
-    {
-      "id": 8,
-      "owner": "Olivia Brown",
-      "name": "Soul 8",
-      "location": "hell"
-    },
-    {
-      "id": 9,
-      "owner": "William Taylor",
-      "name": "Soul 9",
-      "location": "purgatory"
-    },
-    {
-      "id": 10,
-      "owner": "Sophia Martinez",
-      "name": "Soul 10",
-      "location": "sky"
-    },
-    {
-      "owner": "Bob",
-      "name": "Soul 1 Updated",
-      "location": "purgatory",
-      "id": 11
+      "name": "Link",
+      "owner": "Zelda",
+      "location": "sky",
+      "id": 4
     }
   ]
 }
