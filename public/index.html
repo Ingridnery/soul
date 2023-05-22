@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add The New Soul</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        #cancel-btn {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+<div class="container mx-auto p-4">
+    <h1 class="text-3xl text-center mb-8"><b>Add The New Soul</b></h1>
+    <h3 class="text-3xl text-center mb-8">😈😇</h3>
+
+    <form class="mb-8 mx-12">
+        <input type="hidden">
+        <div class="flex flex-wrap mb-4">
+            <div class="w-full md:w-1/2 pr-4">
+                <label for="soul-name" class="block mb-2">Nome:</label>
+                <input type="text" id="soul-name" class="w-full bg-gray-800 rounded p-2" required>
+            </div>
+            <div class="w-full md:w-1/2 pl-4">
+                <label for="soul-owner" class="block mb-2">Dono:</label>
+                <input type="text" id="soul-owner" class="w-full bg-gray-800 rounded p-2" required>
+            </div>
+        </div>
+        <div class="mb-4">
+            <label for="soul-location" class="block mb-2">Localidade:</label>
+            <select id="soul-location" class="w-full bg-gray-800 rounded p-2" required>
+                <option value="">Selecione</option>
+                <option value="Céu">Céu</option>
+                <option value="Inferno">Inferno</option>
+                <option value="Purgatório">Purgatório</option>
+            </select>
+        </div>
+        <div class="flex justify-center">
+            <input type="submit" id="save-btn" value="Salvar"
+                   class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded cursor-pointer mr-2">
+
+            <button id="cancel-btn"
+                    class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded cursor-pointer">Cancelar</button>
+        </div>
+    </form>
+
+    <div class="overflow-x-auto custom-scrollbar mx-auto">
+        <table class="w-full table-fixed">
+            <thead>
+            <tr>
+                <th class="py-2 text-center">ID</th>
+                <th class="py-2 text-center">Nome</th>
+                <th class="py-2 text-center">Dono</th>
+                <th class="py-2 text-center">Localidade</th>
+                <th class="py-2 text-center"></th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+</body>
+
+</html>
